@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/woodlanders_react_app/precache-manifest.104896260469eaf0968063bb2e35bc21.js"
+  "/woodlanders_react_app/precache-manifest.4deade4c04b1bbe25309e2fc76e432b3.js"
 );
 
 self.addEventListener('message', (event) => {
