@@ -299,10 +299,13 @@ img {
 }
 
 .nav-tabs a {
-  color: #BDBDBD;
+  color: #302F2C;
   font-weight: 300;
   font-size: 20px;
   margin-right: 32px;
+  border-bottom: 2px solid #DBDBDB;
+  padding-bottom: 10px;
+  text-decoration: none;
 }
 
 .nav-tabs .active{
