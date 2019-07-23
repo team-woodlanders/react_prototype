@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a0276f6396966ed36304ecb3dad842e5",
+    "revision": "ab7b0fc5ba64fefa8d68e9540aed97ff",
     "url": "/woodlanders_react_app/index.html"
   },
   {
-    "revision": "68ffa0dd7407d923226c",
+    "revision": "5f4919a4a790018c2069",
     "url": "/woodlanders_react_app/static/css/main.34de6062.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/woodlanders_react_app/static/js/2.019922f7.chunk.js"
   },
   {
-    "revision": "68ffa0dd7407d923226c",
-    "url": "/woodlanders_react_app/static/js/main.58f3d376.chunk.js"
+    "revision": "5f4919a4a790018c2069",
+    "url": "/woodlanders_react_app/static/js/main.8f46b143.chunk.js"
   },
   {
     "revision": "dca5594fe3cc034b49a1",

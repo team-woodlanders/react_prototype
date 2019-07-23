@@ -181,13 +181,20 @@ img {
 
 .question-container {
   margin-top: 60px;
-  margin-bottom: 40px;
+  margin-bottom: 16px;
   font-family: "Lato";
   font-weight: bold;
   font-size: 24px;
   text-align: center;
   color: white;
-  flex-grow: 1;
+}
+
+#question {
+  min-height: 108px;
+  max-width: 300px;
+  margin: auto;
+  display: flex;
+  align-items: flex-end;
 }
 
 .interaction-container {
@@ -241,7 +248,7 @@ img {
 .subtext {
   font-family: "Lato";
   font-size: 14px;
-  margin-top: 24px;
+  margin-top: 8px;
 }
 
 .invisible {
@@ -258,6 +265,8 @@ img {
   overflow-x: scroll;
   margin-top: 24px;
   padding-left: 20px;
+  max-width: 100vw;
+  margin-bottom: 16px;
 }
 
 .tag-list::-webkit-scrollbar { width: 0 !important }
@@ -305,7 +314,7 @@ img {
 }
 
 .card{
-  max-width: 330px;
+  max-width: 400px;
   background: #F1F0F0;
   border-radius: 5px;
   font-family: "Lato";
@@ -416,4 +425,46 @@ img {
   align-items: center;
   justify-content: center;
   font-weight: bold;
+}
+
+.one-line {
+  white-space: nowrap;
+}
+
+.flex-container.feature-container {
+  max-width: 330px;
+}
+
+.flex-container.center {
+  align-items: center;
+}
+
+.flex-container.results{
+  max-width: 400px;
+  align-self: center;
+  padding: 0;
+}
+
+.modal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0,0,0,0.6);
+}
+
+.modal-dialog {
+  width: 100%
+}
+
+.modal-header, .modal-body, .modal-footer {
+  border:none;
+  text-align: left;
+  padding-left: 2rem;
+}
+
+.btn:hover {
+  color: #929D5C;
+}
+.btn.active:hover {
+  color: #FFFFFF;
 }
