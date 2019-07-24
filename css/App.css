@@ -54,8 +54,8 @@ img {
   flex-direction: column;
 }
 
-.home-container, .quiz-container {
-  background: url('../background.jpg') no-repeat center top;
+.home-container {
+  background: url('../images/backgrounds/home_background.png') no-repeat center top;
   background-size: cover;
 }
 
